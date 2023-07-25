@@ -1,9 +1,9 @@
 # Boot-Linux-ESP32S3-Playground
-This is a playground for the [Boot Linux on ESP32-S3](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3) which was done by the Legend: [jcmvbkbc](https://github.com/jcmvbkbc) 
+Este é um playground para o [Boot Linux on ESP32-S3](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3) que foi feito pelo Legend: [jcmvbkbc](https://github.com/jcmvbkbc) 
 
-Example kernel and rootfs images built from the above [wiki sources](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3) as well as a [toolchain archive](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3)
+Exemplo de imagens de kernel e rootfs construídas a partir das [fontes wiki](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3) acima, bem como um [arquivo da cadeia de ferramentas](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3)
 
-used hardware in this case: ESP32-S3-N8R8 DevKitC-1 from [Espressif](http://espressif.eu) ( Octal-pSRAM ) 
+Hardware usado neste caso: ESP32-S3-N8R8 DevKitC-1 de [Espressif](http://espressif.eu) ( Octal-pSRAM )
 
 <pre>Build:Mar 27 2021
 rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
@@ -65,17 +65,18 @@ ptr = 0x42b30000
 [    0.000000] earlycon: esp32uart0 at MMIO32 0x60000000 (options &apos;115200n8&apos;)
 [    0.000000] printk: bootconsole [esp32uart0] enabled
 [    0.000000] **********************************************************
-[    0.000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] **   AVISO AVISO AVISO AVISO AVISO AVISO AVISO AVISO    **
 [    0.000000] **                                                      **
-[    0.000000] ** This system shows unhashed kernel memory addresses   **
-[    0.000000] ** via the console, logs, and other interfaces. This    **
-[    0.000000] ** might reduce the security of your system.            **
+[    0.000000] ** Este sistema mostra endereços de memória do kernel   **
+[    0.000000] ** sem hash através do console, logs e outras           **
+[    0.000000] ** interfaces. Esse pode reduzir a segurança do seu     **
+[    0.000000] ** sistema.                                             **
 [    0.000000] **                                                      **
-[    0.000000] ** If you see this message and you are not debugging    **
-[    0.000000] ** the kernel, report this immediately to your system   **
-[    0.000000] ** administrator!                                       **
+[    0.000000] ** Se você vir esta mensagem e não estiver depurando    **
+[    0.000000] ** o kernel, relate isso imediatamente ao seu sistema   **
+[    0.000000] ** administrador!                                       **
 [    0.000000] **                                                      **
-[    0.000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] **   AVISO AVISO AVISO AVISO AVISO AVISO AVISO AVISO    **
 [    0.000000] **********************************************************
 [    0.000000] Zone ranges:
 [    0.000000]   Normal   [mem 0x000000003c030000-0x000000003c82ffff]
@@ -166,15 +167,15 @@ buildroot login:
 </pre>
 
 
-**To do: more things in the rootfs :)
+** Para fazer: mais coisas no rootfs :)
 
 
 
-![1](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/5d7484bb-652a-4c53-ac6e-52507158d8f0)
+![1](https://github.com/branux/Boot-Linux-ESP32S3-Playground/assets/16070445/5d7484bb-652a-4c53-ac6e-52507158d8f0)
 
-![2](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a0527e15-11d1-44ff-8987-2b2dd7a29af8)
+![2](https://github.com/branux/Boot-Linux-ESP32S3-Playground/assets/16070445/a0527e15-11d1-44ff-8987-2b2dd7a29af8)
 
-![3](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/904cf8db-7ec6-4734-b392-130fbedf66ab)
+![3](https://github.com/branux/Boot-Linux-ESP32S3-Playground/assets/16070445/904cf8db-7ec6-4734-b392-130fbedf66ab)
 
 
 
